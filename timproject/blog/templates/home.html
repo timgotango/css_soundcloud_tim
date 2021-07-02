@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <title>Soundcloud</title>
+</head>
+<body>
+    <header style = "background-color: black; color: white; height: 50px; text-align: center;  width: 100%;">
+        <div class="headerLeft" style = "float: left; width: 40%">
+            <div class="logo"style = "float: left; width: 25%; background-color: orange; margin: 3px;">soundcloud logo</div>
+            <nav class="leftHeader" style = "float: left">
+                <ul class="navMenu"style = "list-style:none; margin:0; padding:0;">
+                    <li class="Home"style = "float: left; border: white 1px solid; height:50px; width: 70px;">Home</li>
+                    <li class="Stream"style = "float: left; border: white 1px solid; height:50px; width: 70px;">Stream</li>
+                    <li class="Library"style = "float: left; border: white 1px solid; height:50px; width: 70px;">Library</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="headerMiddle" style = "float: left; width: 30%; background-color: blue;">
+            <input type='text' placeholder='Search for artists'><button>search</button>
+        </div>
+        <div class="headerRight" style = "float: left; width: 30%;">
+            <div class="loginMenu" style = "float: left;>
+                <button class="Signin" style = "float: left;">Sign in</button>
+                <button class="Createaccount" style = "float: left;">Create account</button>
+            </div>
+            <div class="Upload" style = "float: left;">Upload</div>
+            <ul class="navMenu" style = "float: left;>
+                <li class="menu">menu</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="passage">
+        <div class="left">
+            <ul class="">
+                <li class="1">
+                    <div>
+                        <div class="title">
+                            <h2 class="titleSubject">Genre here</h2>
+                            <p class="titleDetail">Genre detail here</p>
+                        </div>
+                        <div class="content">
+                            <div class="album">
+                                <div class="albumPhoto">album photo here</div>
+                                <div class="albumDetail">
+                                    <h4 class="albumDetailTitle">album title here</h4>
+                                    <h4 class="albumDetailDetail">album detail here</h4>
+                                </div>
+                            </div>
+                            <div class="album">
+                                <div class="albumPhoto"></div>
+                                <div class="albumDetail">
+                                    <h4 class="albumDetailTitle"></h4>
+                                    <h4 class="albumDetailDetail"></h4>
+                                </div>
+                            </div>
+                            <div class="album">
+                                <div class="albumPhoto"></div>
+                                <div class="albumDetail">
+                                    <h4 class="albumDetailTitle"></h4>
+                                    <h4 class="albumDetailDetail"></h4>
+                                </div>
+                            </div>
+                            <div class="album">
+                                <div class="albumPhoto"></div>
+                                <div class="albumDetail">
+                                    <h4 class="albumDetailTitle"></h4>
+                                    <h4 class="albumDetailDetail"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="2"></li>
+                <li class="3"></li>
+                <li class="4"></li>
+                <li class="5"></li>
+                <li class="6"></li>
+                <li class="7"></li>
+                <li class="8"></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="sidebar">
+                <div class="streamSidebar">
+                    <article class="sidebarModule">
+                        <div class="sidebarHeader">Go mobile</div>
+                        <div class="sidebarContent">app store and google play button here</div>
+                    </article>
+                    <div class="footer">
+                        <div class="notice">Legal - Privacy - Cookie Policy - Cookie Manager - Imprint - Creator Resources - Blog - Charts - Popular searches</div>
+                        <div class="language">Language : English (US)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
